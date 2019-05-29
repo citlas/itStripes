@@ -1,0 +1,25 @@
+@import 'variables';
+
+
+
+
+.stripes{
+font-family: $lato;
+color: $block5;
+height: 100vh;
+
+}
+.stripe{
+  float: left;
+  width: 20%;
+  height: 100vh;
+  text-align: center;
+  margin: auto;    
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+
+}
+  
+  
+  

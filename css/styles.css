@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+.stripes {
+  font-family: "Lato", sans-serif;
+  color: #F24B4B;
+  height: 100vh; }
+
+.stripe {
+  float: left;
+  width: 20%;
+  height: 100vh;
+  text-align: center;
+  margin: auto;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center; }
+
+/*# sourceMappingURL=styles.css.map */
