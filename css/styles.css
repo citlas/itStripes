@@ -11,6 +11,8 @@
   justify-content: center;
   background: lightcoral;
   color: white;
+  position: relative;
+  overflow: hidden;
   width: 19.6%;
 }
 .stripes .stripe:nth-child(n) {
@@ -38,6 +40,19 @@
 }
 .stripes .stripe5 {
   background-color: #F24B4B;
+}
+
+.stripe::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  opacity: 0.1;
+  transform: skew(25deg);
+  width: 100%;
+  height: inherit;
 }
 
 /*# sourceMappingURL=styles.css.map */
