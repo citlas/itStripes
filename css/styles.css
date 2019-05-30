@@ -53,6 +53,11 @@
   transform: skew(25deg);
   width: 100%;
   height: inherit;
+  transition: transform 0.3s;
+}
+
+.stripe:hover:before {
+  transform: scale(3);
 }
 
 /*# sourceMappingURL=styles.css.map */
