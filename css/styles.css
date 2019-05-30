@@ -1,17 +1,43 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 .stripes {
   font-family: "Lato", sans-serif;
-  color: #F24B4B;
-  height: 100vh; }
-
-.stripe {
+  height: 100vh;
+}
+.stripes .stripe {
   float: left;
-  width: 20%;
   height: 100vh;
   text-align: center;
-  margin: auto;
-  vertical-align: middle;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  background: lightcoral;
+  color: white;
+  width: 19.6%;
+}
+.stripes .stripe:nth-child(n) {
+  margin-bottom: 0.5%;
+  margin-right: 0.5%;
+}
+.stripes .stripe:nth-child(5n) {
+  margin-bottom: 0;
+  margin-right: 0;
+}
+.stripes .stripe h1 {
+  align-self: center;
+}
+.stripes .stripe1 {
+  background-color: #244F75;
+}
+.stripes .stripe2 {
+  background-color: #60BFBF;
+}
+.stripes .stripe3 {
+  background-color: #8C4B7E;
+}
+.stripes .stripe4 {
+  background-color: #F8BB44;
+}
+.stripes .stripe5 {
+  background-color: #F24B4B;
+}
 
 /*# sourceMappingURL=styles.css.map */
